@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.gordoncollegeccs.edu.ph.cap" version="1.0.3">
+
+	<name>CCS Access Point</name>
+	<description>CCS Access Point</description>
+	<author>iThree</author>	<gap:platforms>
+		<gap:platform name="ios" />
+		<gap:platform name="android" />
+		<gap:platform name="webos" />
+		<gap:platform name="symbian.wrt" />
+		<gap:platform name="blackberry" project="widgets"/>
+		
+		
+
+
+<gap:splash gap:platform="ios" height="480" src="res/screen/ios/screen-iphone-portrait.png" width="320" />
+<gap:splash gap:platform="ios" height="960" src="res/screen/ios/screen-iphone-portrait-2x.png" width="640" />
+<gap:splash gap:platform="ios" height="1024" src="res/screen/ios/screen-ipad-portrait.png" width="768" />
+<gap:splash gap:platform="ios" height="768" src="res/screen/ios/screen-ipad-landscape.png" width="1024" />
+<<<<<<< HEAD
+
+
+
+
+=======
+>>>>>>> yehey
+   <gap:splash src="splash/ios/Default_iphone5.png"         gap:platform="ios" width="640"  height="1136" />
+    <gap:splash src="splash/ios/Default_Portrait.png"        gap:platform="ios" width="768"  height="1004" />
+    <!-- retina iPad -->
+    <gap:splash src="splash/ios/Default-Portrait_at_2x.png"  gap:platform="ios" width="1536" height="2008" />
+		
+<<<<<<< HEAD
+=======
+		
+>>>>>>> yehey
+	</gap:platforms>
+	
+	<icon src="images/cap12.png" gap:platform="ios" width="57" height="57" />
+	<icon src="images/cap123.png" gap:platform="ios" width="72" height="72" />
+	<icon src="images/cap1234.png" gap:platform="ios" width="114" height="114" />
+
+	<!-- retina iPad support: PhoneGap 2.5.0+ only -->
+	<icon src="images/cap12345.png" gap:platform="ios" width="144" height="144" />	
+	<icon src="images/cap12456.png" gap:platform="ios" width="76" height="76" />
+	<icon src="images/cap124567.png" gap:platform="ios" width="120" height="120" />
+	<icon src="images/cap1245678.png" gap:platform="ios" width="152" height="152" />
+
+
+	<icon src="images//cap12456a.png" gap:role="default" />
+	<preference name="phonegap-version" value="3.1.0" />
+	
+	<access origin="*" subdomains="true" />
+	<access uri="*" subdomains="true" />
+	
+
+
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	<feature name="http://api.phonegap.com/1.0/camera"/>
+	<feature name="http://api.phonegap.com/1.0/file"/>
+	<feature name="InAppBrowser">
+    <param name="android-package" value="org.apache.cordova.InAppBrowser" />
+	</feature>
+	<feature name="Geolocation">
+    <param name="android-package" value="org.apache.cordova.GeoBroker" />
+	</feature>
+	
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
+	<preference name="target-device" value="universal" />
+
+</widget>
